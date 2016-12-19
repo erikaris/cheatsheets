@@ -1,0 +1,201 @@
+\begin{figure}[H]
+	\includegraphics[scale=0.8]{twitter-follower}
+	\caption{Number of Followers of Dr. Nelson's Followers}
+	\label{fig:twitter-follower}
+\end{figure}
+
+======================================================================================================
+Find how to make a box for figure or picture
+
+\begin{figure}[H]
+	\fbox{\includegraphics[scale=0.8]{twitter-follower}}
+	\centering
+	\caption{Number of Followers of Dr. Nelson's Followers}
+	\label{fig:twitter-follower}
+\end{figure}
+
+======================================================================================================
+Make large figure fit into page
+
+\begin{figure}[H]
+	\fbox{\includegraphics[width=\textwidth, height=\textheight, keepaspectratio]{blogclust}}
+	\centering
+	\caption{Dendogram of The Blogs Clustering}
+	\label{fig:dendogram}
+\end{figure}
+
+======================================================================================================
+Fastest way to create latex table: http://www.tablesgenerator.com/
+
+
+\begin{table}[h!]
+\center
+\begin{tabular}{ |p{3cm}|p{3cm}|  }
+ \hline
+ Statistics & Value\\
+ \hline
+ Mean   & 358.987012987    \\
+ Standard Deviation &   371.585298171  \\
+ Median & 266.5\\
+ \hline
+\end{tabular}
+\caption{Statistics of Dr.Nelson`s Followers}
+\label{tab:followers}
+\end{table}
+
+======================================================================================================
+
+\begin{lstlisting}[language=python, caption={Python Code for Twitter Following}, label={lst:following}]
+#!/usr/bin/python
+
+\end{lstlisting}
+
+======================================================================================================
+Make listing non-coding
+
+\lstinputlisting[frame=single,caption={Output from script \emph{makeMDS.py}},label=lst:q4output,captionpos=b,numbers=left,showspaces=false,showstringspaces=false,basicstyle=\footnotesize]{questions/q4/q5-mds.txt}
+
+======================================================================================================
+Highlight text
+
+\rowcolor{lightgray} Date & Time & Instruction & Design
+
+======================================================================================================
+make new paragraf
+
+\begin{flushleft}
+blah..blah..
+\end{flushleft}
+
+======================================================================================================
+reference from paper orang:
+
+@article{TimeNotes,
+	author = {James Walker and Rita Borgo and Mark W. Jones},
+	title = {TimeNotes: A Study on Effective Chart Visualization and Interaction Techniques for Time-Series Data},
+	year = {2016},
+	month = {Janaury},
+	journal = {IEEE Transactions on Visualization and Computer Graphics (Proceedings of Information Visualization 2015)},
+	volume = {23},
+	number = {1},
+	pages = {549-558},
+	doi = {10.1109/TVCG.2015.2467751},
+}
+
+======================================================================================================
+make division:
+
+\frac{n!}{k!(n-k)!}
+
+======================================================================================================
+Wrote URL:
+
+\url{...}
+======================================================================================================
+Create List:
+
+\begin{enumerate}
+	\item ....
+	\item ....
+\end{enumerate}
+
+======================================================================================================
+Ordered List:
+
+ \begin{enumerate}
+   \item First level item
+   \item First level item
+   \begin{enumerate}
+     \item Second level item
+     \item Second level item
+     \begin{enumerate}
+       \item Third level item
+       \item Third level item
+       \begin{enumerate}
+         \item Fourth level item
+         \item Fourth level item
+       \end{enumerate}
+     \end{enumerate}
+   \end{enumerate}
+ \end{enumerate}
+
+======================================================================================================
+Table of Contents
+
+1. add use package	--> \usepackage{titletoc}
+2. before \begin{document}, add this	--> \dottedcontents{section}[1.5em]{\bfseries}{1.3em}{.6em}
+3. before the section that you'll put on table of contents, add this	-->  \addcontentsline{toc}{section}{Question 1}
+	Change the 3rd parameter --> {Question 1} according to your section name.
+	Change the 3rd parameter --> {Question 1} according to your section name.
+
+======================================================================================================
+Equation:
+
+\begin{equation} \label{eq:1}
+	.....
+\end{equation}
+
+======================================================================================================
+make a separator line
+
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}
+
+======================================================================================================
+auto wrap verbatim:
+
+\usepackage{spverbatim}
+...
+
+\begin{spverbatim}
+This is a very long line.1
+
+\end{spverbatim}
+
+
+=====================================================================================================
+italic:
+\textit{accident}
+
+======================================================================================================
+\begin{minipage}{.5\textwidth}
+\begin{tabular}{llll}
+Nodes & Edges & Method & Wiki Graph \\
+6,043 & 608 & Filter 1 & Small \\
+233,493 & 471,722 & Filter 2 & Small \\
+233,493 & 471,722 & Filter 3 & Small \\
+\end{tabular}
+ \end{minipage}%
+    \begin{minipage}{0.5\textwidth}
+  \begin{tabular}{llll}
+Nodes & Edges & Method & Wiki Graph \\
+121,818 & 256,036 & Filter 1 & Large \\
+1,763,461 & 9,549,718 & Filter 2 & Large \\
+121,818 & 256,274 & Filter 3 & Large \\
+\end{tabular}
+\end{minipage}
+\end{table}
+
+======================================================================================================
+spacing in math formula
+
+1. simple spacing	-->  using backslash '\'	-->   example: lg \ n	--> will be: lg n
+2. single space	-->   \quad  ....  \quad
+3. double space -->  \qquad  ....  \qquad
+
+======================================================================================================
+
+Cari cara bikin tulisan bold.
+
+======================================================================================================
+Cari cara bikin soft wrap.
+
+======================================================================================================
+Cari cara nulis "_" tanpa error.
+
+
+=====================================================================================================
+
+\section*{Question 8.8}
+\begin{spverbatim}
+	question 4
+\end{spverbatim}
